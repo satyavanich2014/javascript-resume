@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+
+
+</head>
+<!-- 
+<body>
+    <div class="container">
+<h1>Resume</h1>
+<h2>satyavani</h2>
+<table class="th">
+    <thead >
+        <tr>
+<th style="border: 1px solid gray;">qualification</th>
+<th style="border: 1px solid gray;">percentage</th>
+<th style="border: 1px solid gray;">year</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid gray;">m.sc</td>
+<td style="border: 1px solid gray;">70%</td>
+<td style="border: 1px solid gray;">2017</td>
+</tr>
+
+<tr>
+    <td style="border: 1px solid gray;">m.sc</td>
+    <td style="border: 1px solid gray;">60%</td>
+    <td style="border: 1px solid gray;">2013</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid gray;">bsc</td>
+        <td style="border: 1px solid gray;">60%</td>
+        <td style="border: 1px solid gray;">2019</td>
+        </tr>
+            
+
+</tbody>
+
+
+</table>
+
+
+    </div>
+<div>
+<h3>skill set</h3>
+<ul>
+<li>C</li>
+<li>C++</li>
+<li>HTML</li>
+<li>JAVASCRIPT</li>
+</ul>
+
+</div>
+
+<div>
+
+<h3>Hobbies</h3>
+<ul>
+<li>reading books</li>
+<li>listening music</li>
+<li>dancig</li>
+<li>singing</li>
+</ul>
+
+</div>
+<div>
+<h3>certifications</h3>
+<ul>
+<li>def</li>
+<li>dfgh</li>
+<li>dfgvb</li>
+<li>wedfrgvb</li>
+</ul>
+
+
+
+</div> -->
+<body>
+<script>
+var containerElement=document.createElement('div');
+document.body.appendChild(containerElement);
+var myh1=document.createElement('h1');
+myh1.innerHTML="RESUME";
+containerElement.style="background-color: aqua;";
+containerElement.style=" width:600px;"; 
+containerElement.style="  margin:auto";
+var myh2=document.createElement('h2');
+myh2.innerHTML="satyavani.ch (m.sc)";
+
+
+var myp=document.createElement('p');
+myp.innerHTML='Address:7034556  Ganghinagar hyderabad-3087778'
+
+var myp2=document.createElement('p');
+myp2.innerHTML='Phone-(M) 9986567765.Email - satyavanich@gmail.com'
+
+var myh3 = document.createElement('h3');
+myh3.innerHTML='* Educational  Qualification *'
+
+containerElement.appendChild(myh1);
+containerElement.appendChild(myh2);
+containerElement.appendChild(myp);
+containerElement.appendChild(myp2);
+containerElement.appendChild(myh3);
+
+
+var mytable = document.createElement('table');
+
+
+
+
+var mytableh1 = document.createElement('th');
+mytableh1.innerHTML='Examination';
+
+mytableh1. style="border: 1px solid gray;";
+
+containerElement.appendChild(mytableh1);
+
+var myexam1= document.createElement('tr');
+myexam1.innerHTML = "SSC";
+mytableh1.appendChild(myexam1);
+myexam1.style="border: 1px solid gray;";
+var myexam2=document.createElement('tr');
+myexam2.innerHTML="INTER";
+mytableh1.appendChild(myexam2);
+
+var myexam3 = document.createElement('tr');
+myexam3.innerHTML='BSC';
+mytableh1.appendChild(myexam3);
+
+var myexam4 = document.createElement('tr');
+myexam4.innerHTML='MSC';
+mytableh1.appendChild(myexam4);
+
+
+var mytableh2 = document.createElement('th');
+mytableh2.innerHTML='Institute & Board';
+mytableh2.style.border="1px solid gray";
+containerElement.appendChild(mytableh2);
+
+
+var myboard1 = document.createElement('tr');
+myboard1.innerHTML=" S.S.Z.P.Z.SCHOOL";
+mytableh2.appendChild(myboard1);
+
+var myboard2 = document.createElement('tr');
+myboard2.innerHTML="G.R.R.S JUNIOR COLLEGE";
+mytableh2.appendChild(myboard2);
+
+
+var myboard3 = document.createElement('tr');
+myboard3.innerHTML="K.V.R.D DEGREE COLLEGE";
+mytableh2.appendChild(myboard3);
+
+
+var myboard4 = document.createElement('tr');
+myboard4.innerHTML="ANDHRA UNIVERSITY";
+mytableh2.appendChild(myboard4);
+
+var mytableh3 = document.createElement('th');
+mytableh3.innerHTML='year';
+mytableh3.style.border="1px solid gray";
+
+var mytr=document.createElement('tr');
+var mytd = document.createElement('tr');
+mytd.innerHTML='2005';
+mytd.style.border="1px solid gray";
+
+var mytd1 = document.createElement('tr');
+mytd1.innerHTML='2007';
+mytd1.style.border="1px solid gray";
+
+var mytd2 = document.createElement('tr');
+mytd2.innerHTML='2010';
+mytd2.style.border="1px solid gray";
+
+var mytd3 = document.createElement('tr');
+mytd3.innerHTML='2013';
+mytd3.style.border="1px solid gray";
+
+mytableh3.appendChild(mytd);
+mytableh3.appendChild(mytd1);
+mytableh3.appendChild(mytd2);
+mytableh3.appendChild(mytd3);
+containerElement.appendChild(mytableh3);
+
+
+
+var mytableh4 = document.createElement('th');
+
+mytableh4.innerHTML='Percentage';
+mytableh4.style.border="1px solid gray";
+containerElement.appendChild(mytableh4);
+
+
+var mypersentage1 = document.createElement('tr');
+mypersentage1.innerHTML='80%';
+
+mypersentage1.style.border="1px solid gray";
+mytableh4.appendChild(mypersentage1);
+
+
+var mypersentage2=document.createElement('tr');
+mypersentage2.innerHTML="70%";
+mytableh4.appendChild(mypersentage2);
+
+var mypersentage3= document.createElement('tr');
+mypersentage3.innerHTML="69%";
+mytableh4.appendChild(mypersentage3);
+
+var mypersentage4=document.createElement('tr');
+mypersentage4.innerHTML="70%";
+mytableh4.appendChild(mypersentage4);
+
+var myskill = document.createElement("ul");
+myskill.innerHTML= "***SKILL SET***";
+containerElement.appendChild(myskill);
+
+
+var mys1 = document.createElement("li");
+mys1.innerHTML= "HTML";
+containerElement.appendChild(mys1);
+
+var mys2 = document.createElement("li");
+mys2.innerHTML= "CSS";
+containerElement.appendChild(mys2);
+
+var mys3 = document.createElement("li");
+mys3.innerHTML= "BOOTSTRAP";
+containerElement.appendChild(mys3);
+
+var mys4 = document.createElement("li");
+mys4.innerHTML= "C";
+containerElement.appendChild(mys4);
+
+var mys5 = document.createElement("li");
+mys5.innerHTML= "C++";
+containerElement.appendChild(mys5);
+
+var mys6 = document.createElement("li");
+mys6.innerHTML= "MONGODB";
+containerElement.appendChild(mys6);
+
+var mys7 = document.createElement("li");
+mys7.innerHTML= "SQL";
+containerElement.appendChild(mys7);
+
+
+var mys8 = document.createElement("li");
+mys8.innerHTML= "JAVASCRIPT";
+containerElement.appendChild(mys8);
+
+var myproject = document.createElement("ul");
+myproject.innerHTML= "*** PROJECTS ***";
+
+containerElement.appendChild( myproject);
+
+var myproject1 = document.createElement("li");
+myproject1.innerHTML= "AMAZONCLONE BY USING HTML & CSS";
+
+containerElement.appendChild( myproject1);
+
+var myproject2 = document.createElement("li");
+myproject2.innerHTML= "AMAZONCLONE BY USING BOOTSTRAP";
+
+containerElement.appendChild( myproject2);
+
+var myproject3=document.createElement('li');
+myproject3.innerHTML="SMALL PROJECTS";
+containerElement.appendChild(myproject3);
+
+</script>
+
+
+
+
+</body>
+</html>
